@@ -93,14 +93,13 @@ practica-mongodb/
 
 ## Comandes principals per operar l'entorn (com fer consultes i crear dades)
 
-Podeu executar de forma directa els fitxers de consultes des de la terminal de la vostra màquina amfitriona sense haver d'entrar manualment dins del contenidor:
+Ens situem a la carpeta MongoDB
 
 ```bash
 # Executar les operacions CRUD bàsiques (Inserció, Lectura, Actualització i Eliminació)
-docker exec -it mongodb-botiga mongosh -u admin -p password123 --authenticationDatabase admin botiga /queries/crud.js
+docker exec -i mongodb-botiga mongosh -u admin -p password123 --authenticationDatabase admin botiga --quiet < queries/crud.js
 
 # Executar les consultes avançades, agregacions i gestió d'índexs
-docker exec -it mongodb-botiga mongosh -u admin -p password123 --authenticationDatabase admin botiga /queries/advanced.js
 ```
 
 ## Explicació dels volums i xarxes configurats
