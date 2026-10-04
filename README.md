@@ -36,7 +36,7 @@ Seguiu aquests passos de manera ordenada per clonar el projecte, configurar el d
 ### Pas 1: Clonar el repositori
 Obriu la vostra terminal, desplaceu-vos fins a la carpeta on voleu desar el projecte i executeu la següent comanda per clonar el dipòsit remot:
 ```bash
-git clone https://github.com/Heros190/MongoDB.git
+git clone https://github.com/Abad190/MongoDB.git
 ```
 Un cop clonat, entreu a la carpeta del projecte:
 ```bash
